@@ -1,0 +1,96 @@
+.datatable{
+    height: 600px;
+    width: 100%;
+    padding: 50px;
+
+
+    .datatableTitle{
+        width: 100%;
+        font-size: 24px;
+        color: rgb(192, 57, 57);
+        margin-bottom: 1px;
+        display: flex;
+       // align-items: center;
+        //justify-content: space-between;
+
+        .link{
+            position:relative;
+            left:100px;
+            text-decoration: none;
+            color: rgb(2, 0, 15);
+            font-size: 25px;
+            font-weight: 400;
+            border: 5px solid rgb(83, 33, 124) ;
+            padding: 1px;
+            border-radius: 1px;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(168, 255, 168);
+            }
+
+        }
+    }
+
+  /*  .status{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Completed{
+          //  color: rgb(101, 245, 101);
+           // background-color: rgba(31, 231, 97, 0.26);
+        }
+        &.Ongoing{
+            //color: rgb(255, 255, 113);
+         //   background-color: rgba(146, 158, 41, 0.116);
+        }
+        &.Upcoming{
+            color: red;
+            background-color: rgba(216, 40, 40, 0.336) ;
+        }
+    }
+    
+    .priority{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.High{
+            color: green;
+            background-color: rgba(31, 231, 97, 0.26);
+        }
+        &.low{
+            color: rgb(207, 75, 75);
+            background-color: rgba(158, 41, 47, 0.562);
+        }
+        &.medium{
+            color: rgba(236, 252, 17, 0.575);
+            background-color: rgba(64, 70, 13, 0.541) ;
+        }
+    }
+    */
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .viewbutton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: blue;
+            border: 1px dotted rgba(38, 204, 204, 0.514);
+            cursor: pointer;
+            &:hover{
+                background-color: aquamarine;
+            }
+        }
+        .deletebutton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: rgb(117, 148, 44);
+            border: 1px dotted rgba(224, 104, 124, 0.514);
+            cursor: pointer;
+            &:hover{
+                background-color: rgba(220, 20, 60, 0.356);
+            }
+        }
+    }
+}
